@@ -99,7 +99,7 @@ progress[value]::-webkit-progress-value {
     position: absolute;
     left: 0;
     right: 0;
-    top: 32%;
+    top: 30%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -107,7 +107,7 @@ progress[value]::-webkit-progress-value {
 
 .fa-play-circle, .fa-pause-circle {
     color: var(--xmas-red);
-    font-size: 8em;
+    font-size: 5rem;
 }
 
 .fa-pause-circle {
@@ -129,6 +129,7 @@ progress[value]::-webkit-progress-value {
     -webkit-appearance: none;
     background: var(--light-gray);
     border-radius: 0%;
+    display: none;
 }
 
 .volume-control-input::-webkit-slider-thumb {
@@ -184,16 +185,16 @@ button:hover {
     background: transparent;
     border: none;
     font-size: 16px;
-    font-family: var(--primary-font);
+    font-family: 'Permanent Marker', cursive ,Arial;
 }
 
 .filter-button-left {
-    padding: 12px 10px 10px 10px;
+    padding: 9px 10px 10px 10px;
     float: left;
 }
 
 .filter-button-right {
-    padding: 10px 15px 10px 10px;
+    padding: 10px 0px 14px 10px;
     min-width: 100px;
 }
 
@@ -236,7 +237,7 @@ button:hover {
 /* Gallery */
 
 .section-title {
-    font-family: var(--primary-font);
+    font-family: 'Permanent Marker', cursive ,Arial;
     font-weight: 500;
     font-size: 30px;
     margin-bottom: 20px;
@@ -384,7 +385,7 @@ button:hover {
     }
 
     .grid-item:hover .grid-item-img {
-        filter: blur(4px);
+        filter: blur(0px);
 
     }
 }
