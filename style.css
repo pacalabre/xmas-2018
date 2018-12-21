@@ -175,7 +175,6 @@ button:hover {
 }
 
 .filter-container {
-    border-radius: 20px;
     border: solid var(--light-gray) thin;
     box-shadow: 1px 1px 10px 0px var(--light-gray);
 }
@@ -189,18 +188,17 @@ button:hover {
 }
 
 .filter-button-left {
-    padding: 10px 10px 10px 20px;
-    border-radius: 20px 0 0 20px;
+    padding: 12px 10px 10px 10px;
+    float: left;
 }
 
 .filter-button-right {
     padding: 10px 15px 10px 10px;
-    border-radius: 0 20px 20px 0;
     min-width: 100px;
 }
 
 .filter-button-icon {
-    padding-left: 25px;
+    padding: 10px;
     color: #a9a9a9;
 }
 
